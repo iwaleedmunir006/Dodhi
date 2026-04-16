@@ -1,0 +1,27 @@
+
+
+Class: User
+Properties:
+- Username    , string
+- Phone       , string
+- Password    , string
+- CowRate     , integer
+- BuffaloRate , integer
+- MilkRecords , List<Milk>
+
+Functions:
+- AddMilkRecord
+- EditMilkRecord
+- DeleteMilkRecord
+- ViewMilkRecord
+- GenerateBill
+- SetCowMilkRate
+- SetBuffaloMilkRate
+- GetCowMilkRate
+- GetBuffaloMilkRate
+
+
+Class: Milk
+Properties:
+- Type  ,  string
+- Date  ,  Date
