@@ -25,3 +25,5 @@ Class: Milk
 Properties:
 - Type  ,  string
 - Date  ,  Date
+
+Authors: Waleed
